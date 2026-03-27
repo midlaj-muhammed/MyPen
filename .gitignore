@@ -31,11 +31,21 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Firebase related
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# Keys and sensitive files
+android/key.properties
+*.keystore
+*.jks
 
 # Android Studio will place build artifacts here
 /android/app/debug
